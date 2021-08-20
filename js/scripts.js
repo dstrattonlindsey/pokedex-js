@@ -73,3 +73,7 @@ let pokemonRepository = (function () {
 
 pokemonRepository.add({ name: 'Snorlax'});
 console.log( pokemonRepository.getAll() );
+
+pokemonList.forEach (function(property) {
+  console.log(property);
+});
